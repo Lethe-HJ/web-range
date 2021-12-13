@@ -1,0 +1,40 @@
+.__search {
+    height: 100%;
+    cursor: text;
+    background-color: white;
+    border: 1px solid rgb(133, 133, 133);
+}
+.__search-input {
+    display: flex;
+    flex-grow: 1;
+    justify-content: space-between;
+    box-sizing: border-box;
+}
+
+.__search-input-text {
+    height: fit-content;
+    flex-grow: 1;
+    overflow-x: auto;
+}
+.__search-input-tool {
+    width: 56px;
+    flex-shrink: 0;
+}
+
+.__search .icon {
+    border: 1px solid transparent;
+}
+
+.__search .icon:hover {
+    border: 1px solid grey;
+    cursor: pointer;
+}
+
+.__search .active {
+    background-color: grey;
+    cursor: pointer;
+}
+
+.__search-input-tool {
+    cursor: pointer;
+}

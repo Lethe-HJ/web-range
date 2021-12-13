@@ -1,0 +1,43 @@
+.__filter-search {
+    position: relative;
+}
+.__group {
+    width: unset;
+    flex-wrap: nowrap !important;
+}
+
+.__filter-search .input-control {
+    flex: 1 1 auto;
+    min-width: 50px;
+    height: 28px;
+}
+
+.__filter-search .tree-row {
+    height: fit-content;
+}
+
+.__filter-search .tree-view-body {
+    overflow: hidden;
+    height: fit-content;
+}
+
+.__filter-search .dropdown-menu {
+    width: 100%;
+}
+
+.__filter-search .dropdown-menu > li:hover {
+    background-color: grey;
+}
+
+.__filter-search-btn {
+    padding: 0rem 0.15rem;
+}
+
+.__filter-search-dropdown-toggle::after {
+    margin-left: 0em;
+}
+
+.__search-input-comp {
+    overflow-x: auto;
+    flex-grow: 1;
+}

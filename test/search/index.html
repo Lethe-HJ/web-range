@@ -1,0 +1,27 @@
+<div class="__search">
+    <div class="__search-input">
+        <div
+            class="__search-input-text"
+            id="filter-search-input"
+            contenteditable="plaintext-only"
+            placeholder="Search"
+        ></div>
+        <div class="__search-input-tool">
+            <i
+                class="icon icon-font-size"
+                title="match case"
+                onclick="this.clickTools(event, 'CASE')"
+            ></i>
+            <i
+                class="icon icon-character-recognition-line"
+                title="match whole word"
+                onclick="this.clickTools(event, 'WORD')"
+            ></i>
+            <i
+                class="icon icon-registered-line"
+                title="use regular expression"
+                onclick="this.clickTools(event, 'REG')"
+            ></i>
+        </div>
+    </div>
+</div>

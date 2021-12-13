@@ -1,0 +1,25 @@
+<div id="filter-search" class="__filter-search">
+    <div class="input-group __group">
+        <div class="input-group-btn">
+            <button
+                id="dropdown-btn"
+                type="button"
+                class="
+                    btn btn-default btn-sm
+                    dropdown-toggle
+                    __filter-search-btn __filter-search-dropdown-toggle
+                "
+            >
+                <span class="caret" id="caret"></span>
+            </button>
+            <ul class="dropdown-menu mr-xl-2" id="dropdown-menu"></ul>
+        </div>
+        <!-- /btn-group -->
+        <search-input
+            class="mr-xl-2 __search-input-comp"
+            id="search-input-comp"
+            [value]="data.value"
+        ></search-input>
+    </div>
+    <!-- /input-group -->
+</div>
